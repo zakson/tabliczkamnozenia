@@ -64,8 +64,8 @@ for($xi = 1; $xi <= $x; $xi++)
 		else 
 			echo '<td>';	
 		//echo printf("%u", crc32($xi*$yi)).'</td>';
-		echo sprintf("%u", crc32($xi*$yi)).'</td>';
-		//echo ($xi*$yi);
+		//echo sprintf("%u", crc32($xi*$yi)).'</td>';
+		echo ($xi*$yi);
 		//echo $z++;
 		echo '</td>';
 	}
