@@ -22,8 +22,8 @@ table td.max {
 <h1>Tabliczka mnożenia</h1>
 <?php
 
- $x = (is_numeric($_GET['x']))?$_GET['x']:10;
- $y = (is_numeric($_GET['y']))?$_GET['y']:10;
+@ $x = (is_numeric($_GET['x']))?$_GET['x']:10;
+@ $y = (is_numeric($_GET['y']))?$_GET['y']:10;
 
 /////////////////////////////////////////////////
  /*
